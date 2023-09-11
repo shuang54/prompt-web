@@ -1,15 +1,13 @@
-
 import NextLink from 'next/link'
 import { Link } from '@nextui-org/link'
 import { button as buttonStyles } from '@nextui-org/theme'
 import { GithubIcon } from '@/components/icons'
 import { siteConfig } from '@/config/site';
-import { title, subtitle } from '@/components/primitives'
 
 import Note from '@/components/Index/Note'
 import FutureOutlook from '@/components/Index/FutureOutlook'
 import Hero from '@/components/Index/Hero'
-
+import '../i18/index';
 import Classification from '@/components/Index/Classification';
 
 export default function Home() {
